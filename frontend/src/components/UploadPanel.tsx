@@ -73,7 +73,6 @@ export default function UploadPanel({
         ref={inputRef}
         type="file"
         accept="image/*"
-        capture="environment"
         className="hidden"
         onChange={(e) => handleFiles(e.target.files)}
       />
